@@ -1,8 +1,6 @@
-import cron from "node-cron";
-import fetch from "node-fetch";
-import dotenv from "dotenv";
-
-dotenv.config();
+const cron = require("node-cron");
+const fetch = require("node-fetch");
+require("dotenv").config();
 
 const TARGET_IP = process.env.TARGET_IP || "127.0.0.1";
 const TARGET_PORT = process.env.TARGET_PORT || 3000;

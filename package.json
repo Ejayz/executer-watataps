@@ -1,27 +1,13 @@
 {
-  "name": "executer-watataps",
+  "name": "cron-shutwatap",
   "version": "1.0.0",
-  "description": "",
-  "homepage": "https://github.com/Ejayz/executer-watataps#readme",
-  "bugs": {
-    "url": "https://github.com/Ejayz/executer-watataps/issues"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/Ejayz/executer-watataps.git"
-  },
-  "license": "ISC",
-  "author": "",
-  "type": "commonjs",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node index.js",
-    "dev": "nodemon index.js"
+    "start": "node index.js"
   },
   "dependencies": {
-    "dotenv": "^17.2.3",
-    "node-cron": "^4.2.1",
-    "nodemon": "^3.1.11"
+    "node-cron": "^3.0.2",
+    "dotenv": "^16.0.0",
+    "node-fetch": "^3.3.1"
   }
 }
