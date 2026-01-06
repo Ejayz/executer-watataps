@@ -6,8 +6,12 @@
     "start": "node index.js"
   },
   "dependencies": {
-    "node-cron": "^3.0.2",
     "dotenv": "^16.0.0",
-    "node-fetch": "^3.3.1"
+    "net-ping": "^1.2.4",
+    "node-cron": "^3.0.2",
+    "node-fetch": "^3.3.1",
+    "ping": "^1.0.0",
+    "tcp-ping": "^0.1.1",
+    "zabbix-promise": "^2.0.2"
   }
 }
